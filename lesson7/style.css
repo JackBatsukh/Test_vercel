@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 300px 200px;
+    grid-template-rows: 200px 200px 300px;
+    justify-items: start;
+    align-items: start;
+    justify-content: space-around;
+}
+.container .child{
+    width: 20%;
+    height: 20%;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
+.container .child-2{
+    /* grid-row-start: 1;
+    grid-column-end: 3; */
+    grid-area: 1/1/4/4;
+}

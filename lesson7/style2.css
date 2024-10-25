@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:20px;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.container .child{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    /* border: 1px solid navajowhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+.container .child-1{
+    grid-area: 1/4/1/1;
+}
+.container .child-8{
+    height: 150px;
+    width: 300px;
+}

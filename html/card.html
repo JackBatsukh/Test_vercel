@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            margin:0:
+            box-sizing: auto;
+            padding: 10px;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+        .card {
+            background-color: rgb(255, 255, 255);
+            border: 1px solid #f0ed46;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(76, 13, 192, 0.1);
+            text-align: center;
+        }
+        .card img {
+            width: 90%;
+            height: 150px;
+            object-fit: cover; /* zurgiin size uurclhgui zoomlej oruulah  */
+        }
+        .card button {
+            padding: 10px 20px;
+            background-color: #6b1603;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+        .card button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <img src="https://media.npr.org/assets/img/2023/05/15/2205030236-copy-0c5f5f352317a16b8d40ef149b1d8cc8acedda05.jpg" alt="">
+        <h1>Эрвээхэй</h1>
+        <p>Эрвээхэй нь үнэхээр үзэсгэлэн төгөлдөр амьтан юм. </p>
+        <button>Click Me</button>
+    </div>
+    <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.RUw8fILAYJkSPf1Fr8mPpAHaFj?rs=1&pid=ImgDetMain" alt="">
+        <h1>Шоргоолж</h1>
+        <p>Шоргоолж нь маш ажилсаг, бас хоорондоо ярилцдаг амьтан</p>
+        <button>Click Me</button>
+    </div>
+    <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.E1fpPbcJ1KA9eipO9DmoRQHaI5?rs=1&pid=ImgDetMain" alt="">
+        <h1>Зөгий</h1>
+        <p>Зөгий устаж үгүй болвол дэлхий мөн сүйрнэ, u know what i mean</p>
+        <button>Click Me</button>
+    </div>
+    <div class = "card">
+        <img src="https://th.bing.com/th/id/OIP.f4wfbF0i8uep4rrx31PbwAHaHH?rs=1&pid=ImgDetMain" alt="">
+        <h1>Цох</h1>
+        <p>Цох нь эгдүүтэй бяцхан шавж юм.</p>
+        <button>Click me</button>
+    </div>
+    <div class = "card">
+        <img src="Screenshot 2024-07-07 235333.png" alt="">
+        <h1>Нар</h1>
+        <p>Нар бол амьдралыг, амьд бүхнийг тэтгэгч юм.</p>
+        <a href="https://www.imdb.com/title/tt3541704/"> <button>Click me</button></a>
+    </div>
+</div>
+</body>
+</html>

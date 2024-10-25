@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    /* height: 100%;
+    width: 100%; */
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 10px;
+}
+.container .child{
+    background-color: aquamarine;
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+.container .child-1{
+    grid-area: 1/1/3/3;
+}
+.container .child-2{
+     grid-area: 1/3/2/5;
+    }
+
+.container .child-6{
+    grid-area: 3/2/5/2;
+}
+.container .child-7{
+    grid-area: 3/3/5/5;
+}
